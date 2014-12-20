@@ -14,6 +14,7 @@
 		9E91826F1A45CA0A008069EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E91826E1A45CA0A008069EA /* Images.xcassets */; };
 		9E9182721A45CA0A008069EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E9182701A45CA0A008069EA /* LaunchScreen.xib */; };
 		9E91827E1A45CA0B008069EA /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91827D1A45CA0B008069EA /* Git_TestTests.m */; };
+		9E9182891A45D826008069EA /* TestNewFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9182881A45D826008069EA /* TestNewFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9E9182771A45CA0B008069EA /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E91827C1A45CA0B008069EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E91827D1A45CA0B008069EA /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		9E9182871A45D826008069EA /* TestNewFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNewFile.h; sourceTree = "<group>"; };
+		9E9182881A45D826008069EA /* TestNewFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNewFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				9E9182661A45CA0A008069EA /* AppDelegate.m */,
 				9E9182681A45CA0A008069EA /* ViewController.h */,
 				9E9182691A45CA0A008069EA /* ViewController.m */,
+				9E9182871A45D826008069EA /* TestNewFile.h */,
+				9E9182881A45D826008069EA /* TestNewFile.m */,
 				9E91826B1A45CA0A008069EA /* Main.storyboard */,
 				9E91826E1A45CA0A008069EA /* Images.xcassets */,
 				9E9182701A45CA0A008069EA /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				9E91826A1A45CA0A008069EA /* ViewController.m in Sources */,
 				9E9182671A45CA0A008069EA /* AppDelegate.m in Sources */,
+				9E9182891A45D826008069EA /* TestNewFile.m in Sources */,
 				9E9182641A45CA0A008069EA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
